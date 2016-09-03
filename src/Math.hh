@@ -23,7 +23,7 @@ namespace Math {
 
   // foreign import abs :: Number -> Number
   //
-  inline auto fabs(const double x) -> double {
+  inline auto abs(const double x) -> double {
     return std::fabs(x);
   }
 
